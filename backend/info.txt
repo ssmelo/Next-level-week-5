@@ -1,0 +1,19 @@
+Iniciando projeto:
+- yarn init -y
+
+Instalando express:
+- yarn add express
+
+Instalando tipos TS:
+- yarn add @types/express -D
+
+Instalando typescript:
+- yarn add typescript -D
+
+criando arquivo de config do typescript:
+- yarn tsc --init
+
+-- é bom setar o strict como false no tsconfig.
+
+Instalar o tradutor do typescript:
+- yarn add ts-node-dev -D
