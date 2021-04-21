@@ -17,3 +17,9 @@ criando arquivo de config do typescript:
 
 Instalar o tradutor do typescript:
 - yarn add ts-node-dev -D
+
+
+Para habilitar as anottations no typescript:
+- descomentar os seguintes campos:
+"experimentalDecorators"
+"emitDecoratorMetadata"
