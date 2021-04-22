@@ -18,6 +18,14 @@ criando arquivo de config do typescript:
 Instalar o tradutor do typescript:
 - yarn add ts-node-dev -D
 
+Instalar o typeorm com dependencias do banco de de anottations
+- yarn add typeorm reflect-metadata sqlite3
+
+Para criar migrations:
+- yarn typeorm migration:create -n CreateSettings
+
+Para rodar migrations:
+- yarn typeorm migration:run
 
 Para habilitar as anottations no typescript:
 - descomentar os seguintes campos:
